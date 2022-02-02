@@ -1,0 +1,81 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"name": "onERC721Received",
+				"outputs": [
+					{
+						"internalType": "bytes4",
+						"name": "",
+						"type": "bytes4"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"MintCoin/openzeppelin/token/ERC721/ERC721Holder.sol": "ERC721Holder"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"MintCoin/openzeppelin/token/ERC721/ERC721Holder.sol": {
+			"keccak256": "0xb2b0c5d6c6d25af576c67ab17c17b60dc98510a9869689b0d077fa69922c3c67",
+			"urls": [
+				"bzz-raw://d329cb951e4cc69b2406d90b80989e15bc2355eb100ee85cdcad5eb48ac09550",
+				"dweb:/ipfs/QmYZfr7xQtZhNouP87Ef1keyPE1dVrYHpTebfN2z2H33a5"
+			]
+		},
+		"MintCoin/openzeppelin/token/ERC721/IERC721Receiver.sol": {
+			"keccak256": "0x042048c375daca04b31e31c91bbae912b84b5eb818c4e31b2deb530fd2305342",
+			"urls": [
+				"bzz-raw://d877a87c5e29b9ffca3e334378058c051a4e012fd3635039681003a9376baf1f",
+				"dweb:/ipfs/QmR45snf93cFXtB71TZcmoGy9DbcMha8CqgkDKaLvhjXZK"
+			]
+		}
+	},
+	"version": 1
+}

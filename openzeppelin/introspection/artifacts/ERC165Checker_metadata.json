@@ -1,0 +1,38 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"details": "Library used to query support of an interface declared via {IERC165}. * Note that these functions return the actual result of the query: they do not `revert` if an interface is not supported. It is up to the caller to decide what to do in these cases.",
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"MintCoin/openzeppelin/introspection/ERC165Checker.sol": "ERC165Checker"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"MintCoin/openzeppelin/introspection/ERC165Checker.sol": {
+			"keccak256": "0xbda8cae7fb23ca90384cd73e619ec32ac73afd523bf755275457f025f15d8d32",
+			"urls": [
+				"bzz-raw://828d349654143cad1281a1b0be80bf45643c372d8aee04d24e3dc906727451b4",
+				"dweb:/ipfs/QmXiR4wGt7vkjPm3sXB7exJ3ZnDEmZtwrqY47WCokqJgeS"
+			]
+		}
+	},
+	"version": 1
+}

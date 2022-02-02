@@ -1,0 +1,76 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "interfaceHash",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "address",
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "canImplementInterfaceForAddress",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"details": "Implementation of the {IERC1820Implementer} interface. * Contracts may inherit from this and call {_registerInterfaceForAddress} to declare their willingness to be implementers. {IERC1820Registry-setInterfaceImplementer} should then be called for the registration to be complete.",
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {
+				"canImplementInterfaceForAddress(bytes32,address)": {
+					"notice": "See {IERC1820Implementer-canImplementInterfaceForAddress}."
+				}
+			}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"MintCoin/openzeppelin/introspection/ERC1820Implementer.sol": "ERC1820Implementer"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"MintCoin/openzeppelin/introspection/ERC1820Implementer.sol": {
+			"keccak256": "0x60aa004bb6a80456cde34ef43536ca7f9c0a8d37f3b048ad5db493f5fc07badd",
+			"urls": [
+				"bzz-raw://330dbb1fb18fe414bc0263c3aab3875586cc7d27d602181256eba4468640b32a",
+				"dweb:/ipfs/QmbjCdWZxb83ALkWGuMfwcSv9PGgyDVTx1Z1fA68poHmLZ"
+			]
+		},
+		"MintCoin/openzeppelin/introspection/IERC1820Implementer.sol": {
+			"keccak256": "0x30f42c596e8f00bdde81284f76f7bd00df6df5d32f5c60b890dd3831acb2e540",
+			"urls": [
+				"bzz-raw://f465d5e016ffdfdab0e30cbf7186d7dd46dfe10c0bc9a9987b19a244b076809c",
+				"dweb:/ipfs/QmSaSG7CVBAiKVaP8rDUV7vPMxgjBevvL4yz33nXtSDK3J"
+			]
+		}
+	},
+	"version": 1
+}
