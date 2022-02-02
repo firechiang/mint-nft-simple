@@ -5,7 +5,9 @@ import "../../openzeppelin/token/ERC721/ERC721Full.sol";
 import "../../openzeppelin/token/ERC721/ERC721Holder.sol";
 // 序号递增器
 import "../../openzeppelin/drafts/Counters.sol";
-//全功能ERC721代币
+
+
+//全功能ERC721代币（注意：这个合约铸造的ERC721代币的ID是自动生成的，如果要自定义币ID可参考../../openzeppelin/token/ERC721/ERC721Mintable.sol）
 contract ERC721FullContract is ERC721Full, ERC721Holder {
     using Counters for Counters.Counter;
 	// 单个ERC721代币ID生成器
@@ -18,6 +20,7 @@ contract ERC721FullContract is ERC721Full, ERC721Holder {
         string memory name, //代币名称
         string memory symbol,//代币缩写
         string memory baseURI//代币基本地址
+    // 调用父类ERC721Full构造器    
     ) ERC721Full(name, symbol) public {
         _setBaseURI(baseURI);
     }

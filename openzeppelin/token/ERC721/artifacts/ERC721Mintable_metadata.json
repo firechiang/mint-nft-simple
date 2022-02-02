@@ -568,7 +568,45 @@
 			"title": "ERC721Mintable"
 		},
 		"userdoc": {
-			"methods": {}
+			"methods": {
+				"approve(address,uint256)": {
+					"notice": "授权转移"
+				},
+				"balanceOf(address)": {
+					"notice": "查询某个地址所拥有的ERC721代币数量"
+				},
+				"getApproved(uint256)": {
+					"notice": "查询某个代币授权给了哪个地址"
+				},
+				"isApprovedForAll(address,address)": {
+					"notice": "某个地址上的所有ERC721代币是否全部授权给某个地址"
+				},
+				"mint(address,uint256)": {
+					"notice": "铸造代币（tokenId自己传）"
+				},
+				"ownerOf(uint256)": {
+					"notice": "查询ERC721代币属于哪个地址"
+				},
+				"safeMint(address,uint256)": {
+					"notice": "安全铸造（会验证对方地址是否是合约地址，其实是会验证对方地址是否可接收ERC721代币）"
+				},
+				"safeMint(address,uint256,bytes)": {
+					"notice": "安全铸造（会验证对方地址是否是合约地址，其实是会验证对方地址是否可接收ERC721代币）"
+				},
+				"safeTransferFrom(address,address,uint256)": {
+					"notice": "代币转移，给对方是合约地址调用"
+				},
+				"safeTransferFrom(address,address,uint256,bytes)": {
+					"notice": "代币转移，给对方是合约地址调用"
+				},
+				"setApprovalForAll(address,bool)": {
+					"notice": "是否将当前调用者地址上所有ERC721代币授权给to地址"
+				},
+				"transferFrom(address,address,uint256)": {
+					"notice": "代币转移（需先授权）"
+				}
+			},
+			"notice": "可铸造ERC721代币合约实现，再基础的ERC721标准上面做了一些扩展，代币的ID可以自己传，而不是自动递增 注意：如果是要部署可以自定义币ID的ERC721合约，就用这个"
 		}
 	},
 	"settings": {
@@ -634,17 +672,17 @@
 			]
 		},
 		"MintCoin/openzeppelin/token/ERC721/ERC721.sol": {
-			"keccak256": "0x1a1c02bc2487c763ad240f6b6440ec9dcb84870879aea3ed2a6b9cd300b637c7",
+			"keccak256": "0xdc784482f21286b5d807828a42eaf9d3012bf4777cf72b2bd419067c1c327a0d",
 			"urls": [
-				"bzz-raw://e6351696020fecf1c1b09437a2961cbdc3e1579238a9573b8577b58af463eeb6",
-				"dweb:/ipfs/QmTg7UxUcuENko38JL2Pb2aqXkWgqW1xPDbJwmfo3RVrrV"
+				"bzz-raw://f119968395e16a0917ca48dd32660f4b3d973bfcaf5ef01094e71b7ee350466c",
+				"dweb:/ipfs/QmNwSZtoFjwNgYrceRqTfcGKxuCbBaTQGWYDDS9gecmVKC"
 			]
 		},
 		"MintCoin/openzeppelin/token/ERC721/ERC721Mintable.sol": {
-			"keccak256": "0xdd9d2d0f7fac88b5704044983443c052810b397e6383535711a9162302c32d03",
+			"keccak256": "0x594ad9b0e53ec1023d20f9463420d74b3fa179aa647c8a0aac2e18632a809f72",
 			"urls": [
-				"bzz-raw://3082c4ead86756c5aa19e6734117394dc230d4f92c16537a402dfb57579e5d72",
-				"dweb:/ipfs/QmbGubkvZ8FouoNjrBGsVmJskPXYcYXa1MkWCktwxbd4tU"
+				"bzz-raw://a21d8a3b109a86a1d929b00f079c7454159aa050544b343115d67e7e8335b14e",
+				"dweb:/ipfs/QmfX1r7925n7NtJJvd7nKCfDQogECcVpMtoppMmhabVDFP"
 			]
 		},
 		"MintCoin/openzeppelin/token/ERC721/IERC721.sol": {

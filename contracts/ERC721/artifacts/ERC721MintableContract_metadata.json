@@ -825,7 +825,62 @@
 			}
 		},
 		"userdoc": {
-			"methods": {}
+			"methods": {
+				"approve(address,uint256)": {
+					"notice": "授权转移"
+				},
+				"balanceOf(address)": {
+					"notice": "查询某个地址所拥有的ERC721代币数量"
+				},
+				"baseURI()": {
+					"notice": "返回合约信息地址"
+				},
+				"getApproved(uint256)": {
+					"notice": "查询某个代币授权给了哪个地址"
+				},
+				"isApprovedForAll(address,address)": {
+					"notice": "某个地址上的所有ERC721代币是否全部授权给某个地址"
+				},
+				"mint(address,uint256)": {
+					"notice": "铸造代币（tokenId自己传）"
+				},
+				"mintWithTokenURI(address,uint256,string)": {
+					"notice": "铸造币"
+				},
+				"ownerOf(uint256)": {
+					"notice": "查询ERC721代币属于哪个地址"
+				},
+				"safeMint(address,uint256)": {
+					"notice": "安全铸造（会验证对方地址是否是合约地址，其实是会验证对方地址是否可接收ERC721代币）"
+				},
+				"safeMint(address,uint256,bytes)": {
+					"notice": "安全铸造（会验证对方地址是否是合约地址，其实是会验证对方地址是否可接收ERC721代币）"
+				},
+				"safeTransferFrom(address,address,uint256)": {
+					"notice": "代币转移，给对方是合约地址调用"
+				},
+				"safeTransferFrom(address,address,uint256,bytes)": {
+					"notice": "代币转移，给对方是合约地址调用"
+				},
+				"setApprovalForAll(address,bool)": {
+					"notice": "是否将当前调用者地址上所有ERC721代币授权给to地址"
+				},
+				"tokenByIndex(uint256)": {
+					"notice": "根据索引查询ERC721代币"
+				},
+				"tokenOfOwnerByIndex(address,uint256)": {
+					"notice": "根据地址和索引查询ERC721代币"
+				},
+				"tokenURI(uint256)": {
+					"notice": "查询代币信息地址"
+				},
+				"totalSupply()": {
+					"notice": "ERC721合约里面代币总量"
+				},
+				"transferFrom(address,address,uint256)": {
+					"notice": "代币转移（需先授权）"
+				}
+			}
 		}
 	},
 	"settings": {
@@ -842,10 +897,10 @@
 	},
 	"sources": {
 		"MintCoin/contracts/ERC721/ERC721Mintable.sol": {
-			"keccak256": "0x42a3ecdefd78db67a52dd644af81ba1e3fd317f460e6e64fdbcda0a60c648527",
+			"keccak256": "0x0ff922d21c65565b194cbd819ec2dbc5103897e380f733f254170070d212f1cc",
 			"urls": [
-				"bzz-raw://c286ca61efc4f423b1e554deaf00cc071067944080b3481fbfae2dfd88bcb582",
-				"dweb:/ipfs/QmVYrEyGzturad7ePuJuic9F6xQnjEcV4W9Wob9W4SSvHT"
+				"bzz-raw://b08379b64d8be20a3656a3d684792699f7a717ee2db2cf9aad7f7b5f0c558bb9",
+				"dweb:/ipfs/QmXDcbeTxd6iVJtEaeGRhTyeRaCWF4s3cz52yoriXwdTnH"
 			]
 		},
 		"MintCoin/openzeppelin/GSN/Context.sol": {
@@ -898,24 +953,24 @@
 			]
 		},
 		"MintCoin/openzeppelin/token/ERC721/ERC721.sol": {
-			"keccak256": "0x1a1c02bc2487c763ad240f6b6440ec9dcb84870879aea3ed2a6b9cd300b637c7",
+			"keccak256": "0xdc784482f21286b5d807828a42eaf9d3012bf4777cf72b2bd419067c1c327a0d",
 			"urls": [
-				"bzz-raw://e6351696020fecf1c1b09437a2961cbdc3e1579238a9573b8577b58af463eeb6",
-				"dweb:/ipfs/QmTg7UxUcuENko38JL2Pb2aqXkWgqW1xPDbJwmfo3RVrrV"
+				"bzz-raw://f119968395e16a0917ca48dd32660f4b3d973bfcaf5ef01094e71b7ee350466c",
+				"dweb:/ipfs/QmNwSZtoFjwNgYrceRqTfcGKxuCbBaTQGWYDDS9gecmVKC"
 			]
 		},
 		"MintCoin/openzeppelin/token/ERC721/ERC721Enumerable.sol": {
-			"keccak256": "0x28f4e41b86db783cd8daf9fdec839ce5930332b60f6dc9ac4992dfb584997e79",
+			"keccak256": "0x240be82d7394a52f01c69265b9f5a2da10c2f32c723574171319a45842822f04",
 			"urls": [
-				"bzz-raw://6f1b545ec9e1f0284e86ddd4ffff353e1ab5e026bbbfaa2a5d2d791c39d7afd7",
-				"dweb:/ipfs/Qmf9rVfj6LreiE7NHkkT1S7eLbSQDDY1gKd9XWERx2AN7W"
+				"bzz-raw://7be0a83786f57d20b12d4ae94304ea7a3ef05621080696c92196685e2e5881eb",
+				"dweb:/ipfs/QmVnRyTq8RHjFWnXuTPLtosm4nTWaAdk6cPJ6adaQtT9rr"
 			]
 		},
 		"MintCoin/openzeppelin/token/ERC721/ERC721Full.sol": {
-			"keccak256": "0x307231237999e19b618a03e7ecff1cee2a189dd019ebd203e5e43a63a7ac8aa3",
+			"keccak256": "0xae60365deb20060a775a2921894a099fa0cfc673127bc33fa0ab77d36d283275",
 			"urls": [
-				"bzz-raw://9a169446f024a24c3e5146cbeefea6be3bbbe9ba836f98f9d0c64af9f10773c4",
-				"dweb:/ipfs/QmWibincTepM31suKeF6bd3shbPGjc9E7uULaXQBY1eNX5"
+				"bzz-raw://1fb35d2868bd05db4436b878a125db2fe4178ca3ea2a87055d8ea59aa4bc998b",
+				"dweb:/ipfs/QmZxMmA8XhyXwYQoArfV4v45HUgEnQHtXDZkSqzshXaAHx"
 			]
 		},
 		"MintCoin/openzeppelin/token/ERC721/ERC721Holder.sol": {
@@ -926,24 +981,24 @@
 			]
 		},
 		"MintCoin/openzeppelin/token/ERC721/ERC721Metadata.sol": {
-			"keccak256": "0xe454aab4894511c610fb28e63e212608004921c10dfbffaf0b0e18a2c3b204eb",
+			"keccak256": "0x977de08a56b1bf90a2c7c8bff07e4c4489ed9e05ec172e156614728d50a44dc7",
 			"urls": [
-				"bzz-raw://cbb33c4aa1ba8470e389a79702b1b0450c03acd0e9471ed3ae5d566a958d36a4",
-				"dweb:/ipfs/QmXryp8Ncftr8WYt7vWwoFQVKnbxtQ7dQBHzfzgWWYGisK"
+				"bzz-raw://0f7be39609d551934558628b9dd8437c29dc462a5774b4844ae84dc36ada3601",
+				"dweb:/ipfs/QmcF4gZQrKn5FKmhhMj1hC7xQB4V9SgDKxJggdUin8jT6s"
 			]
 		},
 		"MintCoin/openzeppelin/token/ERC721/ERC721MetadataMintable.sol": {
-			"keccak256": "0xbd9b003914fb0188bfeb7a97ae50c1d02093ba58a9c197dd80b667bf2c2c6f5c",
+			"keccak256": "0x6c329e2f830b5d127ec8f070aa545a47407424261d3a94252f17a6b24774abe1",
 			"urls": [
-				"bzz-raw://2efc0a6ad7c4a19986a34b963d39cf86778814c08aa65685b47c94f0a88b33fc",
-				"dweb:/ipfs/QmdZp8fsSgC2ULMEweP2rGmRcjLZHohBZerQgxnPYWz78W"
+				"bzz-raw://92f6a36b62e0ce45c083e9ca01d9f930e19c79a21209a87c307ad2fcf135f517",
+				"dweb:/ipfs/QmdyMzgmryhPgU6KkybTEtRNdksbaTECKgmTpN9nwYHM1T"
 			]
 		},
 		"MintCoin/openzeppelin/token/ERC721/ERC721Mintable.sol": {
-			"keccak256": "0xdd9d2d0f7fac88b5704044983443c052810b397e6383535711a9162302c32d03",
+			"keccak256": "0x594ad9b0e53ec1023d20f9463420d74b3fa179aa647c8a0aac2e18632a809f72",
 			"urls": [
-				"bzz-raw://3082c4ead86756c5aa19e6734117394dc230d4f92c16537a402dfb57579e5d72",
-				"dweb:/ipfs/QmbGubkvZ8FouoNjrBGsVmJskPXYcYXa1MkWCktwxbd4tU"
+				"bzz-raw://a21d8a3b109a86a1d929b00f079c7454159aa050544b343115d67e7e8335b14e",
+				"dweb:/ipfs/QmfX1r7925n7NtJJvd7nKCfDQogECcVpMtoppMmhabVDFP"
 			]
 		},
 		"MintCoin/openzeppelin/token/ERC721/IERC721.sol": {

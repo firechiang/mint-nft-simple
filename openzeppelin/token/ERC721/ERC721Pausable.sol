@@ -4,6 +4,7 @@ import "./ERC721.sol";
 import "../../lifecycle/Pausable.sol";
 
 /**
+ * 可暂停铸币的ERC721代币合约实现
  * @title ERC721 Non-Fungible Pausable token
  * @dev ERC721 modified with pausable transfers.
  */

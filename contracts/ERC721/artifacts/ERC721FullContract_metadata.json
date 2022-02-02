@@ -703,10 +703,10 @@
 	},
 	"sources": {
 		"MintCoin/contracts/ERC721/ERC721Full.sol": {
-			"keccak256": "0xd8691f90747ad83cb288d8a8132bd1d7338614d81b64b3cf026080fc237c807d",
+			"keccak256": "0xd5964923b73da2e1e0a9040f534876788f425c88d5f8632804467d93bddb1a29",
 			"urls": [
-				"bzz-raw://38bc66f29b1f565a8c0f14cb65ca03b8711f412adbc990f6a41522bcc164681b",
-				"dweb:/ipfs/QmSYY8qzhDANtjEPjjMtUkAxbCjQk7kSC6zupz29wzbHmf"
+				"bzz-raw://4584a1f17eb08a5cd0af7376ed3b8b06e920a149b7e4faf5b9d3e5c1185c18bd",
+				"dweb:/ipfs/QmNSUJHKvu3pN8hLxQzd7gcvdzF4pA4u8sdUuFNidYGLqC"
 			]
 		},
 		"MintCoin/openzeppelin/GSN/Context.sol": {
@@ -759,10 +759,10 @@
 			]
 		},
 		"MintCoin/openzeppelin/token/ERC721/ERC721Full.sol": {
-			"keccak256": "0xebfcbc35dc00837b3a11048a95aea486f1167c88840379797ae58bb408a09027",
+			"keccak256": "0xae60365deb20060a775a2921894a099fa0cfc673127bc33fa0ab77d36d283275",
 			"urls": [
-				"bzz-raw://c1d793ab294b66b97d5a8c7e57418074b42ca64554135e0f6a3e5320f547face",
-				"dweb:/ipfs/QmUTsj9pSyRhtznXspRwmaMkYf1rhzvCJKa3AUxAuvNmrA"
+				"bzz-raw://1fb35d2868bd05db4436b878a125db2fe4178ca3ea2a87055d8ea59aa4bc998b",
+				"dweb:/ipfs/QmZxMmA8XhyXwYQoArfV4v45HUgEnQHtXDZkSqzshXaAHx"
 			]
 		},
 		"MintCoin/openzeppelin/token/ERC721/ERC721Holder.sol": {
