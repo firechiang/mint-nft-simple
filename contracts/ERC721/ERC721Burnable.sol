@@ -13,6 +13,7 @@ contract ERC721BurnableContract is ERC721Full, ERC721Burnable, ERC721Holder{
         string memory name, //代币名称
         string memory symbol,//代币缩写
         string memory baseURI//代币基本地址
+    // 调用父类ERC721Full构造器     
     ) ERC721Full(name, symbol) public {
         _setBaseURI(baseURI);
     }

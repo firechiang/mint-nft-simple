@@ -713,10 +713,10 @@
 	},
 	"sources": {
 		"MintCoin/contracts/ERC721/ERC721Burnable.sol": {
-			"keccak256": "0x772b9f210c15a7266c171f16f4667b3b92ef71b50921f3a9099882c8807e2167",
+			"keccak256": "0x23a9d2747325b3384e3ba0bd068e3c4c507fff0e54e17a5488f71c06b6e3ab0f",
 			"urls": [
-				"bzz-raw://b0aa607e58518c581a58240f2cce2ecc44d0206a5dcd30c327cccf30f3324971",
-				"dweb:/ipfs/QmUfvu2Xx7whREMqFYCC9ijBoRvctwkzSD33Hs2mJrSJi2"
+				"bzz-raw://b544c4f02e208bf327576bee18de50d75f665e2d6629fc9c8f3d37cac9d19c9b",
+				"dweb:/ipfs/QmUZvE8F663rkoU8JiBtQbTJHzK7A5PWQWvw9SgasRGTaE"
 			]
 		},
 		"MintCoin/openzeppelin/GSN/Context.sol": {

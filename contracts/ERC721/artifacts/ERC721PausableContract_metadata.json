@@ -909,10 +909,10 @@
 			]
 		},
 		"MintCoin/openzeppelin/token/ERC721/ERC721Pausable.sol": {
-			"keccak256": "0xf810ec8949d5ddbbaeec25644e71b51a224901ca41c9303115387597ad86f76d",
+			"keccak256": "0xdfcb1004ce5ad9a402cc53fffacfd3f808ee952134024a281ba925ef7a16fc7a",
 			"urls": [
-				"bzz-raw://07cdf8993a394a70909c67c8ae605f6faa6a87f40c5d168d3c441fa6d25db7dd",
-				"dweb:/ipfs/QmWeYcBdCfFbm9X8wiWDnobquA56n7ufMGsNfVzL1EHWLq"
+				"bzz-raw://ba2a3e49b8ebf58914251ffde6cf94db3ffcf2fdb429f7c6a69cb1298b053070",
+				"dweb:/ipfs/Qmcmr2fLFGQhM5LPKwwVVFd32EwjbtvSP6WmARQQBcHzXQ"
 			]
 		},
 		"MintCoin/openzeppelin/token/ERC721/IERC721.sol": {
